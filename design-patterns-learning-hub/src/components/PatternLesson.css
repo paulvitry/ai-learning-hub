@@ -1,0 +1,383 @@
+.pattern-lesson {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.lesson-header {
+  margin-bottom: 3rem;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.breadcrumb a {
+  color: #667eea;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.separator {
+  color: #999;
+}
+
+.category {
+  text-transform: capitalize;
+}
+
+.current {
+  color: #333;
+  font-weight: 500;
+}
+
+.pattern-info h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.pattern-description {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.pattern-meta {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.difficulty {
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.difficulty-beginner {
+  background: #d4edda;
+  color: #155724;
+}
+
+.difficulty-intermediate {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.difficulty-advanced {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.challenges-available {
+  background: #f8f9fa;
+  color: #666;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  font-size: 0.875rem;
+}
+
+.lesson-content {
+  background: white;
+  border-radius: 1rem;
+  padding: 3rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 3rem;
+}
+
+.markdown-content {
+  line-height: 1.8;
+  color: #333;
+}
+
+.markdown-content h1 {
+  font-size: 2rem;
+  margin: 2rem 0 1rem 0;
+  color: #333;
+  border-bottom: 2px solid #667eea;
+  padding-bottom: 0.5rem;
+}
+
+.markdown-content h2 {
+  font-size: 1.5rem;
+  margin: 1.5rem 0 1rem 0;
+  color: #333;
+}
+
+.markdown-content h3 {
+  font-size: 1.25rem;
+  margin: 1.25rem 0 0.75rem 0;
+  color: #333;
+}
+
+.markdown-content p {
+  margin-bottom: 1rem;
+}
+
+.markdown-content ul,
+.markdown-content ol {
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+.markdown-content li {
+  margin-bottom: 0.5rem;
+}
+
+.markdown-content code {
+  background: #f8f9fa;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.25rem;
+  font-family: 'Monaco', 'Menlo', monospace;
+  font-size: 0.875rem;
+}
+
+.markdown-content pre {
+  background: #1e1e1e;
+  color: #d4d4d4;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  font-family: 'Monaco', 'Menlo', monospace;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.markdown-content pre code {
+  background: none;
+  padding: 0;
+  color: inherit;
+}
+
+.markdown-content blockquote {
+  border-left: 4px solid #667eea;
+  margin: 1.5rem 0;
+  padding: 1rem 2rem;
+  background: #f8f9ff;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.markdown-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+
+.markdown-content th,
+.markdown-content td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.markdown-content th {
+  background: #f8f9fa;
+  font-weight: 600;
+}
+
+.lesson-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.lesson-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.challenges-preview {
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.challenges-preview h3 {
+  margin: 0 0 2rem 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.challenges-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.challenge-preview {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  background: #fafafa;
+}
+
+.challenge-preview:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-color: #667eea;
+  text-decoration: none;
+}
+
+.challenge-number {
+  width: 2rem;
+  height: 2rem;
+  background: #667eea;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 0.875rem;
+  flex-shrink: 0;
+}
+
+.challenge-info {
+  flex: 1;
+}
+
+.challenge-info h4 {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+  font-size: 1rem;
+}
+
+.challenge-info p {
+  margin: 0 0 0.75rem 0;
+  color: #666;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+.challenge-meta {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.challenge-meta .difficulty {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+}
+
+.challenge-meta .points {
+  background: #667eea;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.challenge-icon {
+  color: #667eea;
+  flex-shrink: 0;
+}
+
+.lesson-error {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.lesson-error h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.lesson-error p {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.lesson-loading {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.lesson-loading p {
+  color: #666;
+  margin-top: 1rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .pattern-lesson {
+    padding: 1rem;
+  }
+  
+  .pattern-info h1 {
+    font-size: 2rem;
+  }
+  
+  .pattern-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .lesson-content {
+    padding: 1.5rem;
+  }
+  
+  .lesson-navigation {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .challenge-preview {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+  
+  .challenge-meta {
+    justify-content: flex-start;
+  }
+}
+
+/* Completed challenge styles */
+.challenge-preview.completed {
+  background: linear-gradient(135deg, #e8f5e8, #f0fff0);
+  border-color: #28a745;
+  box-shadow: 0 2px 12px rgba(40, 167, 69, 0.1);
+}
+
+.challenge-preview.completed .challenge-number {
+  background: #28a745;
+  color: white;
+  font-size: 1.2em;
+}
+
+.challenge-preview.completed .challenge-icon {
+  color: #28a745;
+}
+
+.completed-badge {
+  background: #28a745;
+  color: white;
+  font-size: 0.75rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 1rem;
+  font-weight: 500;
+  margin-left: 0.5rem;
+}
